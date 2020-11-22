@@ -18,7 +18,6 @@
                         Welome to admin
                         <small>Author</small>
                     </h1>
-                    </ol>
                 </div>
             </div>
             <!-- /.row -->
