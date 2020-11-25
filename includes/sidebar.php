@@ -23,10 +23,8 @@
     <div class="well">
 
         <?php
-        $query = "SELECT * FROM categories LIMIT 3";
+        $query = "SELECT * FROM categories";
         $select_category_sidebar = mysqli_query($connection, $query);
-
-
         ?>
         <h4>Blog Categories</h4>
         <div class="row">
@@ -41,7 +39,7 @@
 
                 </ul>
             </div>
-    
+
         </div>
         <!-- /.row -->
     </div>
